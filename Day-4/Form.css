@@ -1,0 +1,135 @@
+h1{
+		background-color:red;
+		text-align:center;
+		color:white;
+		font-family:arial;
+		
+}
+
+div{
+	margin-left:5%;
+	font-family:arial;
+	
+}
+
+#fname{
+	margin-left:32%;
+	padding-left:15px;
+	width:24.3%;
+	height:28px;
+	text-align:left;
+}
+
+#lname{
+	margin-left:2%;
+	padding-left:15px; 
+	width:24.3%;
+	height:28px;
+}
+
+#cname{
+	margin-left:26%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+#pn{
+	margin-left:27%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+#sa{
+	margin-left:26.7%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+#cc{
+	margin-left:28.1%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+select{
+	margin-left:32.5%;
+	padding-left:15px;
+	width:25.2%;
+	height:32px;
+}
+
+#zc{
+	margin-left:2%;
+	padding-left:15px;
+	width:25.2%;
+	height:28px;
+}
+
+#ch1{
+	margin-left:32%;
+
+}
+
+#ch2{
+	margin-left:19%;
+}
+
+#ch3{
+	margin-left:37.6%;
+}
+
+#ch4{
+	margin-left:17.4%;
+}
+
+
+#ch5{
+	margin-left:37.6%;
+}
+
+
+#ch6{
+	margin-left:18.6%;
+}
+
+#email{
+	margin-left:32.1%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+#pass{
+	margin-left:29.5%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+#cpass{
+	margin-left:24.7%;
+	padding-left:15px;
+	width:52.5%;
+	height:28px;
+}
+
+#button{
+	margin-left:60%;
+	width:6%;
+	height:30px;
+	text-align:center;
+	border:2px 2px 2px 2px;
+	border-color:red;
+	margin-top:25px;
+}
+
+h4{
+	margin-left:56%;
+	padding-bottom:-5%;
+	margin-top:-1.5%;
+	
+}

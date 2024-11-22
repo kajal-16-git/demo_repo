@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Modal</title>
+	  <style>
+		#d1{ 
+				font-family:arial;
+		}
+		#b1{
+				margin-right:100%;
+		}
+		
+		</style>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+	<div id="d1" class="container">
+	  
+	  <!-- Trigger the modal with a button -->
+	  <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">Online Registration</button>
+	  
+	  <!-- Model -->
+	  <div class="modal fade" id="myModal">
+	  <div class="modal-dialog modal-lg">
+		
+	  <!-- Modal content -->
+	 
+	<div class="modal-content">
+		<div class="modal-header text-center">
+			<button type="button" class="close" data-dismiss="modal" ><b style="color:white;">X</b></button>
+			<h2 class="modal-title"><b>Registration Form</b></h2>
+		</div>
+		<div class="modal-body">
+		
+				<form>
+				<div class="row">
+				<div class="col-lg-6 col-md-5 col-sm-6 col-xs-12">
+					<input class="form-control" type="text" placeholder="Enter Full Name">
+				</div>
+				<div class="col-lg-6 col-md-5 col-sm-6 col-xs-12">
+					<input class="form-control" type="text" placeholder="Organization Name">
+				</div>
+				</div>
+				<br>
+				
+				<div class="row">
+				<div class="col-lg-6 col-md-5 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="UTR ID">
+				</div>
+				<div class="col-lg-6 col-md-5 col-sm-6 col-xs-12">
+					<select class="form-control">
+						<option>Mode of Payment</option>
+						<option>Cash</option>
+						<option>Phone Pay</option>
+						<option>Credit Card</option>	
+					</select>
+				</div>
+				</div>
+				<br>
+				
+				<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Gender">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Enter Qulaification Here..">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Enter Designation Here..">
+				</div>
+				</div>
+				<br>
+				
+				<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<select class="form-control">
+						<option>Category</option>
+						<option>Open</option>
+						<option>OBC</option>
+						<option>SC</option>
+						<option>NT</option>
+					</select>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Phone Number">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Email Address">
+				</div>
+				</div>
+				<br>
+				
+				<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="City Name">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="State Name">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Pin Code">
+				</div>
+				</div>
+				<br>
+				
+				<div class="row">
+				<div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
+					<input  class="form-control" type="text" placeholder="Enter Address Here.." style="height:100px;">
+				</div>
+				</div>
+				<br>
+				</form>
+		</div>
+		
+		<div class="modal-footer">
+			   <button id="b1" type="button" class="btn btn-primary">Submit</button>
+		</div>
+	 </div>
+	</div>
+	</body>
+</html>
+	  
